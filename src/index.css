@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+table {
+  margin: auto;
+  padding: 10px;
+}
+
+table th{
+  margin: 0;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  /*border: none;*/
+  color:#000000DE;
+  /*background-color: #92CA6C;*/
+  border-bottom: 1px solid black;
+  /*border-right: 1px solid black;*/
+
+  /*position: relative;*/
+  /*text-align: center;*/
+  /*font-family: 'montserrat';  */
+  font-size: inherit;
+  font-weight: 100;
+}
+
+table td {
+  margin: 0;
+  text-align: left;
+  padding: 2rem 2rem;
+  /*padding-bottom: 1em;*/
+/*  border-bottom: 1px solid  #707070;
+  border-top: 1px solid #707070;*/
+  position: relative;
+  /*font-size: 20px;*/
+  font-weight: 100;
+  opacity: 1;
+}
+
+table tr:last-child{
+   border-bottom: 1px solid  #707070;
+}
+table tr:first-child{
+   border-top: 1px solid  #707070;
+}
+
+table th:first-child{
+  border-left: 1px solid black;
+}
+
+table th:last-child{
+  border-right: 1px solid black;
+}
+
+/*table th:last-child,
+table td:last-child {
+  border-right: 0;
+}
+*/
+table tr {
+  /*border-radius: 14px;*/
+  margin: 60px;
+  background: #fff;
+}
+
+table td:first-child {
+    border-left: 1px solid;
+    font-weight: 700;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+table td:not(:first-child) {
+    /*border-left: 1px solid;*/
+    font-weight: 100;
+/*    font-family: 'montserrat';
+    font-size: 18px;*/
+/*    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;*/
+}
+table td:last-child {
+    border-right: 1px solid;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.VictoryContainer {
+	height:50% !important;
+	width:50% !important;
+	margin: auto !important;
+}
+
+
+.MyReactTableClass {
+  /*max-width: 100%;*/
+  width:100%;
+  /*border-spacing: 10;*/
+  border: none;
+  /*background-color: #FFF;*/
+  color: #2B2E34;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+
+}
+
+.MyReactTableClass td:not(:first-child) {
+    font-weight: 100;
+    font-family: 'montserrat';
+    font-size: 18px;
+}
+
+.MyReactTableClass td:first-child {
+    font-family:  museo-slab, serif;
+    /*font-size:30px;*/
+    border-left: 1px solid;
+    font-weight: 700;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.MyReactTableClass th:first-child{
+  border: none;
+}
+.MyReactTableClass th:last-child{
+  border: none;
+}
+
+.MyReactTableClass th{
+  margin: 0;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  border: none;
+  color:#000000DE;
+  background-color: #FFF;
+  /*border-bottom: 1px solid black;*/
+  /*border-right: 1px solid black;*/
+
+  /*position: relative;*/
+  /*text-align: center;*/
+  font-family: 'montserrat';
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.MyReactTableClass td{
+  margin: 0;
+    text-align: left;
+    padding: 2rem 2rem;
+    /*padding-bottom: 1em;*/
+    border-bottom: 1px solid  #707070;
+    border-top: 1px solid #707070;
+    position: relative;
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 1;
+}
